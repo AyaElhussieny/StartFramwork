@@ -1,0 +1,51 @@
+#contact{
+  padding-top: 8%;
+}
+
+.line-one{
+    border-bottom: 4px solid black;
+    bottom: 10px;
+    left: 38%;
+}
+
+ .line-two{
+    border-bottom: 4px solid black;
+    bottom: 10px;
+    left: 38%;
+
+  }
+  .icon{  
+      left: 38%;
+  }
+  .decoration{
+    /* left: 20%; */
+    bottom: 5px;
+  }
+  h2{
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  
+  #sendBtn{
+    color: white;
+    background-color:#1ABC9C;
+  }
+  .form-control:focus{
+    box-shadow: none;
+  }
+  
+
+
+   .hide{
+     top : 40px;
+     color: grey;
+     transition: all 0.5s;
+  }
+
+  .show{
+     top :0px;
+     color: #1ABC9C;
+     transition: all 0.5s;
+
+  }

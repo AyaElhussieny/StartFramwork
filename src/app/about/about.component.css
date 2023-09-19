@@ -1,0 +1,27 @@
+#about{
+    background-color: #1ABC9C;
+}
+
+.line-one{
+    border-bottom: 4px solid white;
+    bottom: 10px;
+    left: 38%;
+}
+
+ .line-two{
+    border-bottom: 4px solid white;
+    bottom: 10px;
+    left: 38%;
+
+  }
+  .icon{        left: 38%;
+
+  }
+  .decoration{
+    /* left: 20%; */
+    bottom: 5px;
+  }
+  h2{
+    font-size: 40px;
+    font-weight: 700;
+  }

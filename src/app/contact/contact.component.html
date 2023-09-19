@@ -1,0 +1,32 @@
+<div id="contact">
+    <div class="container mt-5">
+       <h2 class="text-center">CONATCT SECTION</h2>
+       <div class="decoration mb-5">
+        <div class="row text-center">
+            <div class="col-md-1 line-one position-relative"></div>
+            <div class="col-md-1 icon position-relative">
+                <i class="fa-solid fa-star "></i>
+            </div>
+        <div class="col-md-1 line-two  position-relative"></div>
+        </div>
+    </div>
+
+    <div class="forms w-75 m-auto px-5">
+        <label [class.hide]="formFocus == false" [class.show]="formFocus == true" class="mb-2 position-relative" for="uName">userName :</label>
+        <input (keyup)="hideLable($event)" class="form-control mb-3 border-0 border-bottom" type="text" id="uName" name="uName">
+
+        <label [class.hide]="formFocus == false" [class.show]="formFocus == true" class="mb-2 position-relative" for="uAge">userAge :</label>
+        <input (keyup)="hideLable($event)" class="form-control mb-3 border-0 border-bottom " type="number" id="uAge" name="uAge">
+    
+
+        <label [class.hide]="formFocus == false" [class.show]="formFocus==true" class="mb-2 position-relative" for="uEmail">userEmail :</label>
+        <input (keyup)="hideLable($event)" class="form-control mb-3 border-0 border-bottom " type="email" id="uEmail" name="uEmail" >
+    
+        <label [class.hide]="formFocus==false" [class.show]="formFocus==true" class="mb-2 position-relative " for="uPass">userPassword :</label>
+        <input (keyup)="hideLable($event)" class="form-control mb-3 border-0 border-bottom " type="password" id="uPass" name="uPass" >
+    
+
+        <button id="sendBtn" class="btn mb-5">Send Message</button>
+    </div>
+    </div>
+</div>
